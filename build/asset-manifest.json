@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/msDynamicsDnD/static/css/main.a1f55867.css",
+    "main.js": "/msDynamicsDnD/static/js/main.93e0befa.js",
+    "static/media/trial3.png": "/msDynamicsDnD/static/media/trial3.e6dd5f21e58216715829.png",
+    "static/media/lab-logo.png": "/msDynamicsDnD/static/media/lab-logo.df708bdd684d00ab40a6.png",
+    "static/media/trial1.png": "/msDynamicsDnD/static/media/trial1.2eb7726300fafda8ef5c.png",
+    "static/media/trial2.png": "/msDynamicsDnD/static/media/trial2.ac7c412ec2c7692706d2.png",
+    "static/media/D-Pine_CMYK.png": "/msDynamicsDnD/static/media/D-Pine_CMYK.cbd4945aacb544dfa87d.png",
+    "index.html": "/msDynamicsDnD/index.html",
+    "main.a1f55867.css.map": "/msDynamicsDnD/static/css/main.a1f55867.css.map",
+    "main.93e0befa.js.map": "/msDynamicsDnD/static/js/main.93e0befa.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a1f55867.css",
+    "static/js/main.93e0befa.js"
+  ]
+}

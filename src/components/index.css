@@ -1,0 +1,30 @@
+#prompt{
+    position: relative;
+    padding-bottom: 100px;
+    top: 50px;
+    width:100%;
+    text-align: center;
+    line-height:1.75;
+    font-size:29px;
+    color:rgb(33,37,40);
+}
+
+#arrow{
+    position: absolute;
+    display: flex;
+    left:47.2%;
+    top:385px;
+    font-size: 15px;
+}
+
+#arrowLabels{
+    position: absolute;
+    min-width: 318px; 
+    top:3px;
+    margin-top: -5px; 
+    left:-19px;
+}
+
+html { height: 100%; overflow:auto; }
+body { height: 100%; }
+ 
