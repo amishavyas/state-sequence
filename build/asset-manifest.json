@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/state-seq-study2/static/css/main.ee20878f.css",
+    "main.js": "/state-seq-study2/static/js/main.721f917e.js",
+    "static/media/lab-logo.png": "/state-seq-study2/static/media/lab-logo.df708bdd684d00ab40a6.png",
+    "static/media/D-Pine_CMYK.png": "/state-seq-study2/static/media/D-Pine_CMYK.cbd4945aacb544dfa87d.png",
+    "index.html": "/state-seq-study2/index.html",
+    "main.ee20878f.css.map": "/state-seq-study2/static/css/main.ee20878f.css.map",
+    "main.721f917e.js.map": "/state-seq-study2/static/js/main.721f917e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ee20878f.css",
+    "static/js/main.721f917e.js"
+  ]
+}
