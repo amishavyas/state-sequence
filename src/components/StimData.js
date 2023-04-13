@@ -666,7 +666,6 @@ Specifically, we select one from each of the 28 groups.
 If we choose a one-step transition, we make sure not to pick the same 1-step transition from the next set */
 for (var trial = 0; trial < stimOptions.length; trial++) {
     var index = Math.floor(Math.random() * (max - min + 1) + min);
-    console.log(trial, index, stimOptions[trial][0]);
     if (trial % 2 === 0) {
         if (index === 0) {
             stimOptions[trial + 1] = stimOptions[trial + 1].slice(1, 6);
@@ -676,9 +675,7 @@ for (var trial = 0; trial < stimOptions.length; trial++) {
 }
 
 /* Select a subset of the stimOptions */
-function selectedStim() {
-    stimSubset.sort(() => Math.random() - 0.5);
-    return stimSubset;
-}
+ 
+stimSubset.sort(() => Math.random() - 0.5);
 
-export default selectedStim;
+export default stimSubset;

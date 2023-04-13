@@ -9,7 +9,7 @@ import selectedStim from "./StimData";
 function Experiment() {
     const [page, setPage] = useState(1);
     const [responses, setResponses] = useState([]);
-    const stimOrder = selectedStim();
+    const stimOrder = selectedStim; 
     const [demoData, setDemoData] = useState({
         age: "",
         education: "",
