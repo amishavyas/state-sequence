@@ -7,12 +7,12 @@ function Instructions({ nextPage }) {
         <div>
             <Container component="main" maxWidth="md" align="center">
                 <Title text="INSTRUCTIONS" />
-                <Typography fontSize="21px" textAlign="center">
+                <Typography fontSize="21px" align="center">
                     <br />
                     Welcome to the experiment!
                     <br />
                 </Typography>
-                <Typography fontSize="21px">
+                <Typography fontSize="21px" align="left">
                     <br />
                     This experiment studies how people understand others' mental
                     states. Specifically, we are interested in how you think a

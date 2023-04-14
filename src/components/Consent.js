@@ -109,8 +109,8 @@ const Consent = ({ nextPage }) => {
                     Whom should you call with questions about this study?
                 </strong>
                 <br />
-                The leader of the research team for this study is Mark Thornton,
-                who can be reached at mark.a.thornton@dartmouth if you have
+                The leader of the research team for this study is Amisha Vyas,
+                who can be reached at amisha.vyas@dartmouth.edu if you have
                 questions, concerns, or complaints, if you would like to talk to
                 the research team, if you think the research has harmed you, or
                 if you wish to withdraw from the study.

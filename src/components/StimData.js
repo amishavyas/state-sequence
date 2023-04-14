@@ -5,8 +5,6 @@ there are 7 final states that have 2 probe states each and there are 2 trial typ
 out of the 6 combinations in each list, we only select one at random 
 */
 
-const max = 5;
-const min = 0;
 const stimOptions = [
     [
         ["jealousy", "anger"],
@@ -664,18 +662,22 @@ const stimSubset = [];
 /* Out of all possible stim options, select a subset for the experiment.
 Specifically, we select one from each of the 28 groups.
 If we choose a one-step transition, we make sure not to pick the same 1-step transition from the next set */
+
 for (var trial = 0; trial < stimOptions.length; trial++) {
+    var min = 0;
+    var max = stimOptions[trial].length - 1;
     var index = Math.floor(Math.random() * (max - min + 1) + min);
     if (trial % 2 === 0) {
         if (index === 0) {
+            console.log(trial, index);
+            console.log(stimOptions[trial + 1].slice(1, 6));
             stimOptions[trial + 1] = stimOptions[trial + 1].slice(1, 6);
         }
     }
     stimSubset.push(stimOptions[trial][index]);
 }
 
-/* Select a subset of the stimOptions */
- 
-stimSubset.sort(() => Math.random() - 0.5);
+/* Randomize trials */
 
+stimSubset.sort(() => Math.random() - 0.5);
 export default stimSubset;

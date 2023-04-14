@@ -7,13 +7,11 @@ import FinalState from "./FinalState";
 import ShowArrow from "./Arrow";
 
 const Sequence = styled.div`
-    padding-top: 40px;
+    padding-top: 50px;
     padding-bottom: 40px;
     display: flex;
-    //flex-direction: row;
     justify-content: center;
     text-align: center;
-    //justify-content: flex-start;
     align-items: flex-start;
 `;
 
@@ -67,6 +65,7 @@ function Trial({ stimOrder, responses, setResponses, nextPage }) {
 
     useEffect(() => {
         /* Runs only when trialNum updates */
+        console.log(trialNum, stimOrder.length); 
         if (trialNum === stimOrder.length) {
             nextPage();
         } else {
