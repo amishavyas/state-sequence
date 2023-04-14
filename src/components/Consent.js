@@ -8,7 +8,7 @@ const Consent = ({ nextPage }) => {
             <Logos />
             <Title text="CONSENT TO TAKE PART IN RESEARCH" />
 
-            <Typography component="h2" variant="h6">
+            <Typography component="h2" variant="h6" align="center">
                 <br />
                 <strong> Dartmouth College </strong>
                 <br />
@@ -59,8 +59,7 @@ const Consent = ({ nextPage }) => {
                 <br />
                 <strong>What does this study involve?</strong>
                 <br />
-                Your participation in this study will last approximately [value
-                between 5 and 60 inserted here, as appropriate] minutes. You
+                Your participation in this study will last approximately 20 minutes. You
                 will begin by reading the study instructions. You will then make
                 judgments about trait, mental states, actions, and/or
                 situations, or nonsocial object or entities (such computer
@@ -94,15 +93,14 @@ const Consent = ({ nextPage }) => {
                 to the public for scientific purposes. We will not record
                 identifying information from you, such as names, contact
                 information, or IP addresses. We may temporarily retain your
-                [Mechanical Turk/Prolific, depending on which platform is being
-                used] ID to ensure that we can pay you if you encounter a
+                Mechanical Turk ID to ensure that we can pay you if you encounter a
                 technical issue. However, this information will be deleted after
                 data collection is complete, and will not be shared.
                 <br />
                 <br />
                 <strong>Will you be paid to take part in this study?</strong>
                 <br />
-                Yes. You will be paid [insert $7.50/hr x duration of study].
+                Yes. You will be paid $2.50.
                 This payment will be made electronically via the online platform
                 you are using to complete the study.
                 <br />

@@ -10,8 +10,11 @@ const Sequence = styled.div`
     padding-top: 40px;
     padding-bottom: 40px;
     display: flex;
-    flex-direction: row;
+    //flex-direction: row;
     justify-content: center;
+    text-align: center;
+    //justify-content: flex-start;
+    align-items: flex-start;
 `;
 
 function Trial({ stimOrder, responses, setResponses, nextPage }) {
@@ -84,7 +87,7 @@ function Trial({ stimOrder, responses, setResponses, nextPage }) {
                     },
                 }}
             />
-            <Container component="main" maxWidth="xl" align="center">
+            <Container component="main" maxWidth="xl">
                 <Typography
                     fontSize="22px"
                     fontWeight="bold"
@@ -92,7 +95,7 @@ function Trial({ stimOrder, responses, setResponses, nextPage }) {
                     align="center"
                 >
                     Imagine that a person has just experienced the sequence of
-                    mental states shown in the blue box below. <br />  How likely
+                    mental states shown in the blue box below. <br /> How likely
                     is it that the next state they experience would be the one
                     in the red box? Click on the slider to respond.
                 </Typography>
@@ -116,7 +119,7 @@ function Trial({ stimOrder, responses, setResponses, nextPage }) {
                         max={100}
                         style={{ marginTop: "20px" }}
                     />
-                    <Typography fontSize="22px">
+                    <Typography fontSize="20px">
                         <span style={{ float: "left" }}>0%</span>
                         <span style={{ float: "right" }}>100%</span>
                     </Typography>

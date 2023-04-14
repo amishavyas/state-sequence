@@ -86,11 +86,14 @@ function DemoSurvey({ nextPage, demoData, setDemoData }) {
                 <Logos />
                 <Title text="DEMOGRAPHIC SURVEY" />
                 <br />
-                <Typography fontSize="21px">
+                <Typography fontSize="21px" align="center">
                     You have finished all the trials! <br />
                     <br />
+                </Typography>
+                <Typography fontSize="21px">
                     Please complete the following survey. You will be debriefed
                     and receive your completion code on the next page.
+                     
                 </Typography>
 
                 <br />

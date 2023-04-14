@@ -7,13 +7,10 @@ const Container = styled.div`
     background-color: rgb(70, 130, 180, 0.35);
     border-radius: 10px;
     display:{({$isOneStep}) => $!isOneStep && 'inline-flex'};
-    //display: inline-flex;
     padding: 10px;
     justify-content: center;
     font-size: 20px;
     margin-right:4px;
-    
-    //padding:{({$isOneStep}) => $isOneStep ? '10px' : '0px'};
 `; 
  
 const RenderArrow = () => (
@@ -38,6 +35,7 @@ function PastStates({sequence, isOneStep}) {
                     bottom: "20px",
                     fontWeight: "bold",
                     fontSize: "18px",
+                    textAlign: "center",
                 }}
             >
                 Already Happened

@@ -119,7 +119,7 @@ const StyledSlider = styled(Slider)({
 const Title = ({ text }) => {
     return (
         <Typography
-            style={{ fontWeight: "bold", color: "#2a702d" }}
+            style={{ fontWeight: "bold", color: "#2a702d", textAlign: "center" }}
             component="h1"
             variant="h4"
         >

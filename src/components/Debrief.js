@@ -7,7 +7,7 @@ function Debrief() {
         <Container component="main" maxWidth="md" align="center">
             <Title text="DEBRIEF TO PARTICIPANTS" />
 
-            <Typography component="h2" variant="h6">
+            <Typography component="h2" variant="h6" align="center">
                 <br />
                 <strong> Dartmouth College </strong>
                 <br />
